@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="examples.keyboardactions"
+    errors="0" failures="0" hostname="" id="" package="examples" skipped="0"
+    tests="1" time="10.09" timestamp="Sun, 17 Dec 2017 08:47:39 GMT">
+  
+    <testcase name="Go to the Search box and search for specific term" classname="examples.keyboardactions" time="10.09" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

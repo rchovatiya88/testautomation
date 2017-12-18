@@ -1,0 +1,16 @@
+{
+  "name": "learnautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nightwatch.js",
+  "dependencies": {
+    "eslint": "^4.13.0",
+    "nightwatch": "^0.9.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node nightwatch -e chrome"
+  },
+  "author": "",
+  "license": "ISC"
+}

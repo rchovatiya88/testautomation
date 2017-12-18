@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="google"
+    errors="0" failures="1" hostname="" id="" package="google" skipped="0"
+    tests="1" time="3.311" timestamp="Mon, 11 Dec 2017 03:02:32 GMT">
+  
+    <testcase name="i would like to go to google.com" classname="google" time="3.311" assertions="2">
+
+      <failure message="Testing if the page title equals &#34;Google&#34;.">    at Object.i would like to go to google.com (/Users/Ronak/Desktop/learnautomation/tests/google.js:7:17)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

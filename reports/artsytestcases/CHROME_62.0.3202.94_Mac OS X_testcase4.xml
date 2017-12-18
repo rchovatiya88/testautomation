@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="artsytestcases.testcase4"
+    errors="1" failures="1" hostname="" id="" package="artsytestcases" skipped="0"
+    tests="1" time="17.05" timestamp="Wed, 13 Dec 2017 02:50:06 GMT">
+  
+    <testcase name="Go to Login Page and existign user should login" classname="artsytestcases.testcase4" time="17.05" assertions="2">
+
+      <failure message="Testing if element &lt;#RecoverPasswordForm &gt; div.text-center &gt; p&gt; contains text: &#34;We will send you an email to reset your password.&#34;. Element could not be located.">    at Object.Go to Login Page and existign user should login (/Users/Ronak/Desktop/learnautomation/tests/artsytestcases/testcase4.js:11:24)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;#RecoverPasswordForm &gt; div.text-center &gt; p&#34; using: css selector
+    at command (/Users/Ronak/Desktop/learnautomation/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/Ronak/Desktop/learnautomation/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/Ronak/Desktop/learnautomation/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/Ronak/Desktop/learnautomation/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/Ronak/Desktop/learnautomation/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/Ronak/Desktop/learnautomation/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/Ronak/Desktop/learnautomation/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/Ronak/Desktop/learnautomation/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/Ronak/Desktop/learnautomation/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/Ronak/Desktop/learnautomation/node_modules/nightwatch/lib/core/queue.js:73:8)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

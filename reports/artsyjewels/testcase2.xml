@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="artsyjewels.testcase2"
+    errors="1" failures="0" hostname="" id="" package="artsyjewels" skipped="0"
+    tests="1" time="0.007000" timestamp="Sun, 17 Dec 2017 03:05:37 GMT">
+  
+    <testcase name="Search Functionality is working" classname="artsyjewels.testcase2" time="0.007000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Artsyjewels / Testcase2 / Search Functionality is working]:
+
+  ReferenceError: ENTER is not defined
+    at Object.Search Functionality is working (/Users/Ronak/Desktop/learnautomation/tests/artsyjewels/testcase2.js:8:22)
+    at Module.call (/Users/Ronak/Desktop/learnautomation/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/learnautomation/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/learnautomation/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/learnautomation/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/learnautomation/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/learnautomation/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/learnautomation/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/learnautomation/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

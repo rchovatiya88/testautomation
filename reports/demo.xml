@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="demo"
+    errors="1" failures="0" hostname="" id="" package="demo" skipped="0"
+    tests="1" time="0.008000" timestamp="Sat, 16 Dec 2017 17:45:07 GMT">
+  
+    <testcase name="Demo test Google" classname="demo" time="0.008000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Demo / Demo test Google]:
+
+  TypeError: client.url(...).waitForElementVisible(...).assert.title(...).doubleclick is not a function
+    at Object.Demo test Google (/Users/Ronak/Desktop/learnautomation/tests/demo.js:9:10)
+    at Module.call (/Users/Ronak/Desktop/learnautomation/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/learnautomation/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/learnautomation/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/learnautomation/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/learnautomation/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/learnautomation/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/learnautomation/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/learnautomation/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
