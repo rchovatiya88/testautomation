@@ -1,3 +1,5 @@
+var usersTestData = require('../tests/testdata/usersdata');
+
 module.exports = function (browser) {
     this.openBrowser = function () {
       browser
@@ -12,9 +14,11 @@ module.exports = function (browser) {
       .waitForElementVisible('body', 1000);
     };
     this.adminLogin = function () {
+      var user = usersTestData.users[0];
+      
       browser
-     .setValue('#id_username', 'admin@admin.com')
-     .setValue('#id_password', '')
+     .setValue('#id_username', user.username)
+     .setValue('#id_password', user.password)
      .click('body > div.container.maincontent > div > div > div.col-md-6.login__form > form > div > div > button');
     };
     this.forgotpassword = function (){
