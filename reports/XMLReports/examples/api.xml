@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="examples.api"
+    errors="1" failures="0" hostname="" id="" package="examples" skipped="0"
+    tests="1" time="0.6370" timestamp="Thu, 05 Apr 2018 18:49:17 GMT">
+  
+    <testcase name="Search city" classname="examples.api" time="0.6370" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Examples / Api / Search city]:
+
+  TypeError: Cannot read property &#39;city&#39; of undefined
+    at Request._callback (D:\Production\Remote\testautomation\tests\examples\api.js:16:33)
+    at Request.self.callback (D:\Production\Remote\testautomation\node_modules\request\request.js:186:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.&lt;anonymous&gt; (D:\Production\Remote\testautomation\node_modules\request\request.js:1163:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at IncomingMessage.&lt;anonymous&gt; (D:\Production\Remote\testautomation\node_modules\request\request.js:1085:12)
+    at IncomingMessage.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

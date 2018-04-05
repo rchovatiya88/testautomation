@@ -11,9 +11,11 @@
       "log_path": "log/",
       "host": "127.0.0.1",
       "port": 4444,
-      "cli_args": {
-        "webdriver.chrome.driver": "lib/drivers/chromedriver"
-      }
+      "cli_args" : {
+        "webdriver.chrome.driver": "lib/drivers/chromedriver.exe",
+        "webdriver.gecko.driver": "lib/drivers/geckodriver.exe",
+        "webdriver.ie.driver" : "lib/drivers/IEDriverServer.exe"
+      }        
     },
     "test_settings" : {
         "chrome": {
@@ -36,8 +38,31 @@
               }
             }
           },
-  
+          "firefox": {
+            "launch_url": "http://localhost",
+            "selenium_port": 4444,
+            "selenium_host": "localhost",
+            "silent": true,
+            "screenshots": {
+              "enabled": false,
+              "path": ""
+            },
+            "desiredCapabilities": {
+              "browserName": "firefox",
+              "javascriptEnabled": true,
+              "acceptSslCerts": true,
+              "marionette": true
+            }      
+          },    
       "edge" : {
+         "launch_url": "http://localhost",
+            "selenium_port": 4444,
+            "selenium_host": "localhost",
+            "silent": true,
+            "screenshots": {
+              "enabled": false,
+              "path": ""
+            },
         "desiredCapabilities": {
           "browserName": "MicrosoftEdge"
         }
