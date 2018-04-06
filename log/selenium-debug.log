@@ -1,52 +1,76 @@
-00:35:35.429 INFO - Selenium build info: version: '3.8.1', revision: '6e95a6684b'
-00:35:35.431 INFO - Launching a standalone Selenium Server
-2018-04-06 00:35:35.566:INFO::main: Logging initialized @492ms to org.seleniumhq.jetty9.util.log.StdErrLog
-00:35:35.613 INFO - Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
-00:35:35.644 INFO - Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-00:35:35.644 INFO - Using `new EdgeOptions()` is preferred to `DesiredCapabilities.edge()`
-00:35:35.644 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-00:35:35.644 INFO - Using `new OperaOptions()` is preferred to `DesiredCapabilities.operaBlink()`
-00:35:35.644 INFO - Using `new SafariOptions()` is preferred to `DesiredCapabilities.safari()`
-00:35:35.644 INFO - Driver class not found: org.openqa.selenium.phantomjs.PhantomJSDriver
-00:35:35.706 INFO - Driver provider class org.openqa.selenium.safari.SafariDriver registration is skipped:
+00:31:09.608 INFO - Selenium build info: version: '3.8.1', revision: '6e95a6684b'
+00:31:09.608 INFO - Launching a standalone Selenium Server
+2018-04-07 00:31:09.782:INFO::main: Logging initialized @582ms to org.seleniumhq.jetty9.util.log.StdErrLog
+00:31:09.845 INFO - Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+00:31:09.860 INFO - Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+00:31:09.860 INFO - Using `new EdgeOptions()` is preferred to `DesiredCapabilities.edge()`
+00:31:09.860 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+00:31:09.860 INFO - Using `new OperaOptions()` is preferred to `DesiredCapabilities.operaBlink()`
+00:31:09.876 INFO - Using `new SafariOptions()` is preferred to `DesiredCapabilities.safari()`
+00:31:09.876 INFO - Driver class not found: org.openqa.selenium.phantomjs.PhantomJSDriver
+00:31:09.923 INFO - Driver provider class org.openqa.selenium.safari.SafariDriver registration is skipped:
  registration capabilities Capabilities {browserName: safari, platform: MAC, version: } does not match the current platform WIN10
-00:35:35.784 INFO - Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-00:35:35.800 INFO - Using `new EdgeOptions()` is preferred to `DesiredCapabilities.edge()`
-00:35:35.800 INFO - Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
-00:35:35.800 INFO - Using `new OperaOptions()` is preferred to `DesiredCapabilities.operaBlink()`
-00:35:35.800 INFO - Using `new SafariOptions()` is preferred to `DesiredCapabilities.safari()`
-00:35:35.800 INFO - Using the passthrough mode handler
-2018-04-06 00:35:35.847:INFO:osjs.Server:main: jetty-9.4.7.v20170914
-2018-04-06 00:35:35.878:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@66d1af89{/,null,STARTING} has uncovered http methods for path: /
-2018-04-06 00:35:35.894:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@66d1af89{/,null,AVAILABLE}
-2018-04-06 00:35:36.114:INFO:osjs.AbstractConnector:main: Started ServerConnector@27d415d9{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2018-04-06 00:35:36.114:INFO:osjs.Server:main: Started @1049ms
-00:35:36.114 INFO - Selenium Server is up and running
-2018-04-06 00:35:37.264:INFO:osjshC.ROOT:qtp184966243-14: org.openqa.selenium.remote.server.WebDriverServlet-4e7dc304: Initialising WebDriverServlet
-00:35:37.349 INFO - Found handler: org.openqa.selenium.remote.server.commandhandler.BeginSession@7410617f
-00:35:37.349 INFO - /session: Executing POST on /session (handler: BeginSession)
-00:35:37.457 INFO - Capabilities are: Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, marionette: true, name: Examples\api}
-00:35:37.457 INFO - Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, marionette: true, name: Examples\api} matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
-1522955137644	geckodriver	INFO	geckodriver 0.20.0
-1522955137660	geckodriver	INFO	Listening on 127.0.0.1:47812
-1522955138725	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofile.YdxRr11C059l"
+00:31:10.013 INFO - Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+00:31:10.013 INFO - Using `new EdgeOptions()` is preferred to `DesiredCapabilities.edge()`
+00:31:10.013 INFO - Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+00:31:10.013 INFO - Using `new OperaOptions()` is preferred to `DesiredCapabilities.operaBlink()`
+00:31:10.013 INFO - Using `new SafariOptions()` is preferred to `DesiredCapabilities.safari()`
+00:31:10.029 INFO - Using the passthrough mode handler
+2018-04-07 00:31:10.060:INFO:osjs.Server:main: jetty-9.4.7.v20170914
+2018-04-07 00:31:10.091:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@66d1af89{/,null,STARTING} has uncovered http methods for path: /
+2018-04-07 00:31:10.107:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@66d1af89{/,null,AVAILABLE}
+2018-04-07 00:31:10.376:INFO:osjs.AbstractConnector:main: Started ServerConnector@27d415d9{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2018-04-07 00:31:10.376:INFO:osjs.Server:main: Started @1177ms
+00:31:10.376 INFO - Selenium Server is up and running
+2018-04-07 00:31:11.812:INFO:osjshC.ROOT:qtp184966243-11: org.openqa.selenium.remote.server.WebDriverServlet-4e7dc304: Initialising WebDriverServlet
+00:31:11.874 INFO - Found handler: org.openqa.selenium.remote.server.commandhandler.BeginSession@1dd1d742
+00:31:11.890 INFO - /session: Executing POST on /session (handler: BeginSession)
+00:31:11.999 INFO - Capabilities are: Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, marionette: true, name: Examples\xlsread}
+00:31:11.999 INFO - Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, marionette: true, name: Examples\xlsread} matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+1523041272296	geckodriver	INFO	geckodriver 0.20.0
+1523041272312	geckodriver	INFO	Listening on 127.0.0.1:29482
+1523041273223	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofile.mdQIU2wf2NKk"
 Unable to read VR Path Registry from C:\Users\Admin\AppData\Local\openvr\openvrpaths.vrpath
-1522955139876	Marionette	INFO	Enabled via --marionette
-Unable to read VR Path Registry from C:\Users\Admin\AppData\Local\openvr\openvrpaths.vrpath
-Unable to read VR Path Registry from C:\Users\Admin\AppData\Local\openvr\openvrpaths.vrpath
+1523041274334	Marionette	INFO	Enabled via --marionette
 Unable to read VR Path Registry from C:\Users\Admin\AppData\Local\openvr\openvrpaths.vrpath
 Unable to read VR Path Registry from C:\Users\Admin\AppData\Local\openvr\openvrpaths.vrpath
-1522955144094	Marionette	INFO	Listening on port 55154
-00:35:45.045 INFO - Detected dialect: W3C
-00:35:45.170 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4ca4d872
-00:35:45.202 INFO - Handler thread for session 6c5f432f-1112-455e-b83c-821fac5eef9e (firefox): Executing POST on /session/6c5f432f-1112-455e-b83c-821fac5eef9e/window/undefined/maximize (handler: ServicedSession)
-00:35:45.302 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4ca4d872
-00:35:45.303 INFO - Handler thread for session 6c5f432f-1112-455e-b83c-821fac5eef9e (firefox): Executing POST on /session/6c5f432f-1112-455e-b83c-821fac5eef9e/url (handler: ServicedSession)
-00:35:49.384 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4ca4d872
-00:35:49.384 INFO - Handler thread for session 6c5f432f-1112-455e-b83c-821fac5eef9e (firefox): Executing POST on /session/6c5f432f-1112-455e-b83c-821fac5eef9e/elements (handler: ServicedSession)
-00:35:49.415 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4ca4d872
-00:35:49.415 INFO - Handler thread for session 6c5f432f-1112-455e-b83c-821fac5eef9e (firefox): Executing GET on /session/6c5f432f-1112-455e-b83c-821fac5eef9e/element/d07a5262-53cb-438d-ae1c-ba4bdd990399/displayed (handler: ServicedSession)
-00:35:49.478 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4ca4d872
-00:35:49.478 INFO - Handler thread for session 6c5f432f-1112-455e-b83c-821fac5eef9e (firefox): Executing POST on /session/6c5f432f-1112-455e-b83c-821fac5eef9e/element (handler: ServicedSession)
-00:35:49.493 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4ca4d872
-00:35:49.493 INFO - Handler thread for session 6c5f432f-1112-455e-b83c-821fac5eef9e (firefox): Executing POST on /session/6c5f432f-1112-455e-b83c-821fac5eef9e/element/5d0ffa59-d6a8-4836-93e7-72be1258a96e/value (handler: ServicedSession)
+Unable to read VR Path Registry from C:\Users\Admin\AppData\Local\openvr\openvrpaths.vrpath
+console.error: 
+  Could not write session state file 
+  Message: Error: _initWorker called too early! Please read the session file from disk first.
+  Stack:
+    _initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:344:15
+_initWorker@resource:///modules/sessionstore/SessionFile.jsm:337:12
+_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:361:11
+write@resource:///modules/sessionstore/SessionFile.jsm:401:19
+write@resource:///modules/sessionstore/SessionFile.jsm:73:12
+_writeState@resource:///modules/sessionstore/SessionSaver.jsm:363:12
+_saveState@resource:///modules/sessionstore/SessionSaver.jsm:301:12
+_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:347:5
+saveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:198:9
+
+  _initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:344:15
+_initWorker@resource:///modules/sessionstore/SessionFile.jsm:337:12
+_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:361:11
+write@resource:///modules/sessionstore/SessionFile.jsm:401:19
+write@resource:///modules/sessionstore/SessionFile.jsm:73:12
+_writeState@resource:///modules/sessionstore/SessionSaver.jsm:363:12
+_saveState@resource:///modules/sessionstore/SessionSaver.jsm:301:12
+_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:347:5
+saveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:198:9
+
+1523041280508	Marionette	INFO	Listening on port 57564
+Unable to read VR Path Registry from C:\Users\Admin\AppData\Local\openvr\openvrpaths.vrpath
+00:31:21.376 INFO - Detected dialect: W3C
+00:31:21.503 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ee5981a
+00:31:21.503 INFO - Handler thread for session 109f1a42-447e-4cd5-abd2-72e58e7dcb13 (firefox): Executing POST on /session/109f1a42-447e-4cd5-abd2-72e58e7dcb13/window/undefined/maximize (handler: ServicedSession)
+00:31:21.722 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ee5981a
+00:31:21.722 INFO - Handler thread for session 109f1a42-447e-4cd5-abd2-72e58e7dcb13 (firefox): Executing POST on /session/109f1a42-447e-4cd5-abd2-72e58e7dcb13/url (handler: ServicedSession)
+00:31:47.825 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ee5981a
+00:31:47.825 INFO - Handler thread for session 109f1a42-447e-4cd5-abd2-72e58e7dcb13 (firefox): Executing POST on /session/109f1a42-447e-4cd5-abd2-72e58e7dcb13/elements (handler: ServicedSession)
+00:31:47.857 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ee5981a
+00:31:47.857 INFO - Handler thread for session 109f1a42-447e-4cd5-abd2-72e58e7dcb13 (firefox): Executing GET on /session/109f1a42-447e-4cd5-abd2-72e58e7dcb13/element/e678b695-2bfd-40aa-b6f2-baac130e7ed6/displayed (handler: ServicedSession)
+00:31:48.154 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ee5981a
+00:31:48.154 INFO - Handler thread for session 109f1a42-447e-4cd5-abd2-72e58e7dcb13 (firefox): Executing POST on /session/109f1a42-447e-4cd5-abd2-72e58e7dcb13/element (handler: ServicedSession)
+00:31:48.180 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@6ee5981a
+00:31:48.181 INFO - Handler thread for session 109f1a42-447e-4cd5-abd2-72e58e7dcb13 (firefox): Executing POST on /session/109f1a42-447e-4cd5-abd2-72e58e7dcb13/element/b3dd4365-0623-4a53-a210-e46310ebe136/value (handler: ServicedSession)

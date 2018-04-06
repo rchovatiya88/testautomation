@@ -1,4 +1,3 @@
-var utils = require('../../pages/utils');
 var request = require('request');
 
 module.exports = {
