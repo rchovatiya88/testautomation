@@ -45,7 +45,7 @@ module.exports = function (browser) {
       browser
       .click('#shopify-section-header > div > header > div > div.grid__item.small--one-half.medium-up--one-third.text-right.site-header__icons.site-header__icons--plus > div > a.site-header__account')
       .click('#RecoverPassword')
-      .setValue('#RecoverEmail', 'ronchoqa@gmail.com')
+      .setValue('#RecoverEmail', 'randomemail@gmail.com')
       .click('#RecoverPasswordForm > div.form-vertical > form > div > p > input')
     };
     this.productRingCategory = function () {

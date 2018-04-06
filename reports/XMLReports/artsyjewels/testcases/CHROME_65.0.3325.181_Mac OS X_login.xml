@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="3"
+            failures="0"
+            tests="2">
+
+  <testsuite name="artsyjewels.testcases.login"
+    errors="3" failures="0" hostname="" id="" package="testcases" skipped="0"
+    tests="2" time="13.62" timestamp="Sat, 24 Mar 2018 15:20:13 GMT">
+  
+    <testcase name="Go to the login page" classname="artsyjewels.testcases.login" time="11.01" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="login as admin" classname="artsyjewels.testcases.login" time="2.615" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;#id_username&#34; using: css selector
+    at adminLogin (/Users/Ronak/Desktop/Work/learnautomation/pages/utils.js:16:7)
+    at Object.login as admin (/Users/Ronak/Desktop/Work/learnautomation/tests/artsyjewels/testcases/login.js:12:20)
+    at Module.call (/Users/Ronak/Desktop/Work/learnautomation/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/learnautomation/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/learnautomation/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/learnautomation/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/learnautomation/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/learnautomation/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/learnautomation/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/learnautomation/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &#34;#id_password&#34; using: css selector
+    at adminLogin (/Users/Ronak/Desktop/Work/learnautomation/pages/utils.js:17:7)
+    at Object.login as admin (/Users/Ronak/Desktop/Work/learnautomation/tests/artsyjewels/testcases/login.js:12:20)
+    at Module.call (/Users/Ronak/Desktop/Work/learnautomation/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/learnautomation/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/learnautomation/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/learnautomation/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/learnautomation/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/learnautomation/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/learnautomation/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/learnautomation/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &#34;body &gt; div.container.maincontent &gt; div &gt; div &gt; div.col-md-6.login__form &gt; form &gt; div &gt; div &gt; button&#34; using: css selector
+    at adminLogin (/Users/Ronak/Desktop/Work/learnautomation/pages/utils.js:18:7)
+    at Object.login as admin (/Users/Ronak/Desktop/Work/learnautomation/tests/artsyjewels/testcases/login.js:12:20)
+    at Module.call (/Users/Ronak/Desktop/Work/learnautomation/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/Ronak/Desktop/Work/learnautomation/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/Ronak/Desktop/Work/learnautomation/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/Ronak/Desktop/Work/learnautomation/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/Ronak/Desktop/Work/learnautomation/node_modules/q/q.js:796:13)
+    at /Users/Ronak/Desktop/Work/learnautomation/node_modules/q/q.js:556:49
+    at runSingle (/Users/Ronak/Desktop/Work/learnautomation/node_modules/q/q.js:137:13)
+    at flush (/Users/Ronak/Desktop/Work/learnautomation/node_modules/q/q.js:125:13)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
