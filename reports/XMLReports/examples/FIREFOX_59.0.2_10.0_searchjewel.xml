@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="examples.searchjewel"
+    errors="0" failures="0" hostname="" id="" package="examples" skipped="0"
+    tests="1" time="22.92" timestamp="Mon, 09 Apr 2018 16:52:01 GMT">
+  
+    <testcase name="Search Jewel" classname="examples.searchjewel" time="22.92" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

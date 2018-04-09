@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="artsyjewels.oldway.testcase1"
+    errors="0" failures="0" hostname="" id="" package="oldway" skipped="0"
+    tests="1" time="9.490" timestamp="Thu, 18 Jan 2018 00:48:18 GMT">
+  
+    <testcase name="Open Homepage and click on dropdown" classname="artsyjewels.oldway.testcase1" time="9.490" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
